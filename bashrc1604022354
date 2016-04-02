@@ -1,0 +1,39 @@
+
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+PS1='[\u@\h \W]\$ '
+
+# pacman
+alias S='sudo pacman -S'
+alias Syu='sudo pacman -Syu'
+
+# livestreamers
+alias lirik='livestreamer twitch.tv/lirik best --player mpv'
+alias soda='livestreamer twitch.tv/sodapoppin best --player mpv'
+alias deadly='livestreamer twitch.tv/deadly best --player mpv'
+alias snaftii='livestreamer twitch.tv/snaftii best --player mpv'
+alias shortyy='livestreamer twitch.tv/shortyyguy best --player mpv'
+
+# bashrc
+alias brup='. ~/.bashrc'
+alias br='nano ~/.bashrc'
+
+# ls
+alias la='ls -a'
+
+# Configs
+alias i3='nano ~/.config/i3/config'
+
+
+
+
+
+
+
+
